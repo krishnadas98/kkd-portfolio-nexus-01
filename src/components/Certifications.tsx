@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 
 const Certifications = () => {
@@ -30,7 +29,7 @@ const Certifications = () => {
       icon: '🎨'
     },
     {
-      title: 'Master's in Data Analytics',
+      title: "Master's in Data Analytics",
       institution: 'Dublin Business School',
       period: '2021–2023',
       description: 'Advanced degree focusing on data-driven decision making and analytics',
