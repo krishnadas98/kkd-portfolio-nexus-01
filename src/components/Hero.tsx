@@ -4,12 +4,12 @@ import { Button } from '@/components/ui/button';
 import { Linkedin, Download } from 'lucide-react';
 
 const Hero = () => {
-  const scrollToProjects = () => {
-    const element = document.getElementById('projects');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  // const scrollToProjects = () => {
+  //   const element = document.getElementById('projects');
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-dark-blue to-dark-blue/90 text-white flex items-center">
@@ -30,21 +30,23 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-              <Button 
+              {/* <Button 
                 onClick={scrollToProjects}
                 size="lg" 
                 className="bg-white text-dark-blue hover:bg-white/90 font-medium px-8 py-3"
               >
                 View Projects
-              </Button>
+              </Button> */}
+               <a href="public\files\Resume.pdf">
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-white text-white hover:bg-white hover:text-dark-blue px-8 py-3"
+                className="border-white text-dark-blue hover:bg-white hover:text-dark-blue px-8 py-3"
               >
                 <Download size={20} className="mr-2" />
                 Download Resume
               </Button>
+              </a>
             </div>
             
             <div className="flex items-center justify-center gap-6">
@@ -58,7 +60,7 @@ const Hero = () => {
                 <span>LinkedIn</span>
               </a>
               <a 
-                href="https://behance.net/krishnadas" 
+                href="https://www.behance.net/krishnadas31" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"

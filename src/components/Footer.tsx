@@ -27,7 +27,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a 
-              href="https://behance.net/krishnadas" 
+              href="https://www.behance.net/krishnadas31" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
