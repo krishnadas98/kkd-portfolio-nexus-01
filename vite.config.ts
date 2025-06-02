@@ -6,6 +6,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 //https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/kkd-portfolio-nexus-01/',
   server: {
     host: "::",
     port: 8080,
