@@ -140,7 +140,7 @@ const Contact = () => {
                   </a>
                 </div>
 
-                <a href="public\files\Resume.pdf">
+                <a href="files\Resume.pdf">
                   <Button
                     variant="outline"
                     size="sm"

@@ -37,7 +37,7 @@ const Hero = () => {
               >
                 View Projects
               </Button> */}
-               <a href="public\files\Resume.pdf">
+               <a href="files\Resume.pdf">
               <Button 
                 variant="outline" 
                 size="lg" 
